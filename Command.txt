@@ -1,0 +1,29 @@
+
+How to Compile and Run
+Compile the Server and Client: Open a terminal in the directory where the .java files are saved and compile both programs:
+
+# javac Server.java Client.java
+
+Start the Server: Run the server first to wait for a client connection:
+
+# java Server
+
+Start the Client: In another terminal, run the client to connect to the server:
+
+# java Client
+
+Example Output
+
+Server:
+
+Server started. Waiting for a connection...
+
+Connection established with /127.0.0.1
+Client says: hi
+Connection closed.
+
+Client:
+
+Connected to the server.
+Client sent: hi
+Server responded: hello
